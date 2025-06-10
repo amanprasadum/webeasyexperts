@@ -5,28 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-     --bs-blue: #007BFF;         /* Trusted Blue (Primary Alt) */
-  --bs-indigo: #5A32A3;       /* Sleek Indigo */
-  --bs-purple: #7C3AED;       /* Modern Purple */
-  --bs-pink: #E83E8C;         /* Balanced Pink */
-  --bs-red: #DC3545;          /* Alert Red */
-  --bs-orange: #FD7E14;       /* Bright Orange */
-  --bs-yellow: #FFC107;       /* Vibrant Yellow */
-  --bs-green: #28A745;        /* Fresh Green */
-  --bs-teal: #20C997;         /* Energetic Teal */
-  --bs-cyan: #17A2B8;         /* Modern Cyan */
-  --bs-white: #FFFFFF;
-  --bs-gray: #6C757D;         /* Neutral Gray */
-  --bs-gray-dark: #343A40;    /* Deep Gray */
-  --bs-primary: #0061F2;      /* Sleek Blue (Main Brand Color) */
-  --bs-secondary: #5C636A;    /* Professional Gray */
-  --bs-success: #198754;
-  --bs-info: #0DCAF0;
-  --bs-warning: #FFC107;
-  --bs-danger: #DC3545;
-  --bs-light: #F4F6F9;        /* Softer Light Background */
-  --bs-dark: #1F1F1F;    
-    /* --bs-blue: #0d6efd;
+     
+    --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
@@ -46,7 +26,7 @@
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-light: #F8F8F8;
-    --bs-dark: #111; */
+    --bs-dark: #111; 
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
@@ -8359,21 +8339,7 @@ fieldset:disabled .btn {
     color: inherit !important
 }
 
-.bg-primary     { background-color: #5c5c99 !important; }  /* Medium Purple-Blue */
-.bg-secondary   { background-color: #a3a3cc !important; }  /* Light Purple-Gray */
-.bg-success     { background-color: #198754 !important; }  /* Keep original green */
-.bg-info        { background-color: #cccccf !important; }  /* Light neutral from your palette */
-.bg-warning     { background-color: #ffc107 !important; }  /* Keep original yellow */
-.bg-danger      { background-color: #dc3545 !important; }  /* Keep original red */
-.bg-light       { background-color: #F4F6F9 !important; }  /* Soft white */
-.bg-dark        { background-color: #292966 !important; }  /* Dark purple from your palette */
-.bg-body        { background-color: #ffffff !important; }
-.bg-white       { background-color: #ffffff !important; }
-.bg-transparent { background-color: rgba(0, 0, 0, 0) !important; }
-.bg-gradient    { background-image: var(--bs-gradient) !important; }
-
-
-/* .bg-primary {
+ .bg-primary {
     background-color: #009CFF !important
 }
 
@@ -8419,7 +8385,7 @@ fieldset:disabled .btn {
 
 .bg-gradient {
     background-image: var(--bs-gradient) !important
-} */
+} 
 
 .user-select-all {
     user-select: all !important
