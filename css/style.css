@@ -1,10 +1,17 @@
 /********** Template CSS **********/
 :root {
+    --primary: #3A86FF;     /* Calming modern blue */
+    --secondary: #6C757D;   /* Soft gray with warmth */
+    --light: #F4F6F8;       /* Gentle off-white */
+    --dark: #1C1C1E;        /* Deep charcoal black */
+}
+
+/* :root {
     --primary: #009CFF;
     --secondary: #777777;
     --light: #F8F8F8;
     --dark: #252525;
-}
+} */
 
 .back-to-top {
     position: fixed;
