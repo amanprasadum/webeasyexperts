@@ -1,10 +1,11 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3A86FF;     /* Calming modern blue */
-    --secondary: #6C757D;   /* Soft gray with warmth */
-    --light: #F4F6F8;       /* Gentle off-white */
-    --dark: #1C1C1E;        /* Deep charcoal black */
+  --primary: #FF6B6B;     /* Vibrant Coral Red */
+  --secondary: #4ECDC4;   /* Bright Aqua */
+  --light: #F7FFF7;       /* Mint White */
+  --dark: #1A1A1D;        /* Rich Black */
 }
+
 
 /* :root {
     --primary: #009CFF;
