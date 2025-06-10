@@ -8359,7 +8359,21 @@ fieldset:disabled .btn {
     color: inherit !important
 }
 
-.bg-primary {
+.bg-primary     { background-color: #0061F2 !important; }  /* New Primary Blue */
+.bg-secondary   { background-color: #5c636a !important; }  /* Neutral Gray */
+.bg-success     { background-color: #198754 !important; }
+.bg-info        { background-color: #0dcaf0 !important; }
+.bg-warning     { background-color: #ffc107 !important; }
+.bg-danger      { background-color: #dc3545 !important; }
+.bg-light       { background-color: #F4F6F9 !important; }  /* Soft white */
+.bg-dark        { background-color: #1F1F1F !important; }  /* Deep dark */
+.bg-body        { background-color: #ffffff !important; }
+.bg-white       { background-color: #ffffff !important; }
+.bg-transparent { background-color: rgba(0, 0, 0, 0) !important; }
+.bg-gradient    { background-image: var(--bs-gradient) !important; }
+
+
+/* .bg-primary {
     background-color: #009CFF !important
 }
 
@@ -8405,7 +8419,7 @@ fieldset:disabled .btn {
 
 .bg-gradient {
     background-image: var(--bs-gradient) !important
-}
+} */
 
 .user-select-all {
     user-select: all !important
