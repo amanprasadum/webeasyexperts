@@ -8359,19 +8359,18 @@ fieldset:disabled .btn {
     color: inherit !important
 }
 
-.bg-primary     { background-color: #2563EB !important; }
-.bg-secondary   { background-color: #6B7280 !important; }
-.bg-success     { background-color: #10B981 !important; }
-.bg-info        { background-color: #0EA5E9 !important; }
-.bg-warning     { background-color: #FBBF24 !important; }
-.bg-danger      { background-color: #F43F5E !important; }
-.bg-light       { background-color: #F9FAFB !important; }
-.bg-dark        { background-color: #111827 !important; }
+.bg-primary     { background-color: #5c5c99 !important; }  /* Medium Purple-Blue */
+.bg-secondary   { background-color: #a3a3cc !important; }  /* Light Purple-Gray */
+.bg-success     { background-color: #198754 !important; }  /* Keep original green */
+.bg-info        { background-color: #cccccf !important; }  /* Light neutral from your palette */
+.bg-warning     { background-color: #ffc107 !important; }  /* Keep original yellow */
+.bg-danger      { background-color: #dc3545 !important; }  /* Keep original red */
+.bg-light       { background-color: #F4F6F9 !important; }  /* Soft white */
+.bg-dark        { background-color: #292966 !important; }  /* Dark purple from your palette */
 .bg-body        { background-color: #ffffff !important; }
 .bg-white       { background-color: #ffffff !important; }
 .bg-transparent { background-color: rgba(0, 0, 0, 0) !important; }
 .bg-gradient    { background-image: var(--bs-gradient) !important; }
-
 
 
 /* .bg-primary {
